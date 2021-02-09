@@ -1,0 +1,46 @@
+age,bloodType,gender,name,patientName,py/object,type
+26,a,m,Luis Villaman,Connie Mack,donor.Donor,IncompatibleMarketDonor
+25,ab,m,James Luckett,Anna Crampton,donor.Donor,IncompatibleMarketDonor
+22,b,m,Lorenzo Limmel,Michael Aceuedo,donor.Donor,IncompatibleMarketDonor
+25,b,m,Jimmy Angulo,Richard Caron,donor.Donor,IncompatibleMarketDonor
+23,b,f,Suzanne Olson,Marjorie Lawson,donor.Donor,IncompatibleMarketDonor
+29,a,m,Robert Loth,Kathryn Infante,donor.Donor,IncompatibleMarketDonor
+25,ab,m,Neal Treadwell,John Bonneau,donor.Donor,IncompatibleMarketDonor
+25,b,f,Victoria Salisbury,Vincent Shaffer,donor.Donor,IncompatibleMarketDonor
+25,ab,m,Edward Hunt,Casey Crawford,donor.Donor,IncompatibleMarketDonor
+32,b,m,John Williams,Nicholas Roberts,donor.Donor,IncompatibleMarketDonor
+31,o,f,Michelle Weaver,,donor.Donor,deceased
+30,a,m,Kevin Bryan,,donor.Donor,deceased
+27,o,f,Lisa Dikes,,donor.Donor,deceased
+23,o,f,Reba Clark,,donor.Donor,deceased
+27,o,m,Ernest Bethea,,donor.Donor,deceased
+34,o,f,Pamela Coachman,,donor.Donor,deceased
+23,o,f,Martha Plummer,,donor.Donor,deceased
+21,o,f,Bertha Heaney,,donor.Donor,deceased
+20,a,m,Jesse Hayes,,donor.Donor,deceased
+29,a,m,Neal Hernandez,,donor.Donor,deceased
+18,o,f,Nancy Tooks,,donor.Donor,deceased
+21,a,m,Gary Quintana,,donor.Donor,deceased
+22,o,m,James Cross,,donor.Donor,deceased
+32,b,f,Ingrid Gandee,,donor.Donor,deceased
+35,b,f,Celestina Rodriguez,,donor.Donor,deceased
+29,o,m,Dennis Page,,donor.Donor,deceased
+33,o,f,Mandy Kirby,,donor.Donor,deceased
+35,a,m,Nicholas Cushman,,donor.Donor,deceased
+25,o,m,Terry Price,,donor.Donor,deceased
+24,a,m,Carl Laclair,,donor.Donor,deceased
+26,o,m,Robert Ritchie,,donor.Donor,market
+24,o,m,Elisha Driggers,,donor.Donor,market
+26,o,m,George Casey,,donor.Donor,market
+25,o,m,Rodney Carlson,,donor.Donor,market
+32,o,m,James Jenner,,donor.Donor,market
+26,a,m,Jon Lueck,,donor.Donor,market
+24,o,m,Danny Driscoll,,donor.Donor,market
+25,o,m,Frank Pullins,,donor.Donor,market
+25,o,f,Dora Cotton,,donor.Donor,market
+25,o,m,Paul Strobeck,,donor.Donor,market
+22,b,m,William Langel,,donor.Donor,market
+26,o,m,Christopher Chestnut,,donor.Donor,market
+20,o,m,Leon Vos,,donor.Donor,market
+25,a,m,John Martin,,donor.Donor,market
+31,a,m,Kevin Shuck,,donor.Donor,market
