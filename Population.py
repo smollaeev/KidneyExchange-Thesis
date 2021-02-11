@@ -7,7 +7,7 @@ from donor import Donor
 from Repository import Repository
 
 class Population:
-    numberOfIndividuals = 80
+    numberOfIndividuals = 40
     crossoverPoint = 10
     probabilityOfCrossover = 1
     tournamentSize = 3

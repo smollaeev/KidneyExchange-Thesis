@@ -71,6 +71,7 @@ class Chromosome:
         totalfitness = 0
         self.priorityCheck = 0
         # cycleReward = 3000
+        chainReward = 3000
 
         totalfitness += self.determine_CompatibilityFitness ()
         
@@ -80,6 +81,8 @@ class Chromosome:
         totalfitness += self.priorityCheck * self.priorityPenalty
         # if self.cycles != []:
         #     totalfitness += cycleReward
+        for i in range (len (self.chains)):
+            totalfitness += chainReward
         self.fitness = copy.deepcopy (totalfitness)
 
     def findchain_MarketWaitlist (self):
