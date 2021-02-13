@@ -71,7 +71,7 @@ class Chromosome:
         totalfitness = 0
         self.priorityCheck = 0
         # cycleReward = 3000
-        chainReward = 1000
+        chainReward = 3000
 
         totalfitness += self.determine_CompatibilityFitness ()
         
