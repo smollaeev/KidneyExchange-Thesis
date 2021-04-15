@@ -81,7 +81,6 @@ class Chromosome:
         totalfitness += self.priorityCheck * self.priorityPenalty
         # if self.cycles != []:
         #     totalfitness += cycleReward
-
         for i in range (len (self.chains)):
             totalfitness += chainReward
         self.fitness = copy.deepcopy (totalfitness)
