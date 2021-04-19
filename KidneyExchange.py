@@ -9,12 +9,9 @@ def main():
         R = Repository()
         patients, donors = R.get_Data ()
 
-        Patient.determine_Priority (patients)
-
-        
+        Patient.determine_Priority (patients)              
 
         solution = Solution (patients, donors)
-
     
         solution.GeneticAlgorithm ()
         solution.show_Results (i)

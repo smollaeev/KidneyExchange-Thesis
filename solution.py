@@ -86,7 +86,8 @@ class Solution:
         fig = plt.figure ()
         axes = fig.add_axes ([0.1, 0.1, 0.8 , 0.8])
         axes.plot (self.bestFitnesses)
-        axes.set_title ('Best Fitness of Answers in Each Generation')
+        axes.grid ()
+        axes.set_title ('Best Fitness of Answers in Each Generation')        
         fig.savefig (f'Best Fitnesses Diagram {i}.jpg')
         # plt.show()
 
@@ -94,6 +95,7 @@ class Solution:
         fig = plt.figure ()
         axes = fig.add_axes ([0.1, 0.1, 0.8, 0.8])
         axes.plot (self.averageFitnesses)
+        axes.grid ()
         axes.set_title ('Average Fitness of Answers in Each Generation')
         fig.savefig (f'Average Fitnesses Diagram {i}.jpg')
         # plt.show()
