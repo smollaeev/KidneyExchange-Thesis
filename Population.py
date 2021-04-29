@@ -7,12 +7,12 @@ from donor import Donor
 from Repository import Repository
 
 class Population:
-    numberOfIndividuals = 40
+    numberOfIndividuals = 60
     crossoverPoint = 10
     probabilityOfCrossover = 1
     tournamentSize = 3
     elitismSize = 2
-    probabilityOfMutation = 0.2
+    probabilityOfMutation = 0.7
 
     def __init__(self, generation, patients, donors):
         self.generation = generation

@@ -7,7 +7,7 @@ import openpyxl
 from openpyxl.utils import get_column_letter
 
 class Solution:
-    numberOfGenerations = 15000
+    numberOfGenerations = 25000
     
     def __init__ (self, patients, donors):
         self.patients = patients
