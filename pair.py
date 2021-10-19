@@ -19,7 +19,7 @@ class Pair:
         incompatibilityPenalty = -400000
         compatibilityPrize = 5000
         ageDifferencePenalty = -0.2
-        # marketDonorPenalty = -3000
+        marketDonorPenalty = -3000
         if self.BloodType_match ():
             self.goodnessOfMatch = compatibilityPrize
         else:
@@ -28,7 +28,7 @@ class Pair:
         self.calculate_AgeDifference ()
         if self.ageDifference > 0:
             self.goodnessOfMatch += (self.ageDifference*ageDifferencePenalty)
-        # if (self.donor.type == 'IncompatibleMarketDonor') or (self.donor.type == 'market'):
-        #     self.goodnessOfMatch += marketDonorPenalty
+        if (self.donor.type == 'IncompatibleMarketDonor') or (self.donor.type == 'market'):
+            self.goodnessOfMatch += marketDonorPenalty
         
         return self.goodnessOfMatch
