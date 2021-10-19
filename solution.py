@@ -1,6 +1,5 @@
 from Population import Population
 import numpy as np
-import pandas as pd
 import copy
 import matplotlib.pyplot as plt
 import openpyxl

@@ -5,7 +5,7 @@ from patient import Patient
 #Go to class Solution, class Population & class Chromosome to change Genetic Algorithm parameters  
 
 def main():   
-    for i in range (5):
+    for i in range (3):
         R = Repository()
         patients, donors = R.get_Data ()
 

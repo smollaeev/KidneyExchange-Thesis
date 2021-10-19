@@ -2030,7 +2030,7 @@
     {
         "py/object": "patient.Patient",
         "name": "Merrill Mcghee",
-        "type": "incomp_patient",
+        "type": "waitlist",
         "age": 27,
         "weight": 79,
         "bloodType": "b",
@@ -2040,16 +2040,16 @@
         "disease": 1,
         "donor": {
             "py/object": "donor.Donor",
-            "name": "Tony Pugh",
-            "gender": "m",
-            "age": 43,
-            "patientName": "Merrill Mcghee",
-            "type": "IncompatibleRelativeDonor",
-            "bloodType": "ab"
+            "name": "",
+            "gender": "",
+            "age": 0,
+            "patientName": "",
+            "type": "",
+            "bloodType": ""
         },
-        "waitingTime": null,
-        "gfr": null,
-        "score": null,
+        "waitingTime": 0,
+        "gfr": 9.471,
+        "score": 54.057,
         "priority": 0,
         "qualityoflifeIndex": 3
     },

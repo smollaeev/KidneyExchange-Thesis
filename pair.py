@@ -1,10 +1,3 @@
-import pandas as pd
-import numpy as np
-import random
-import array
-from donor import Donor
-from patient import Patient
-
 class Pair:
     def __init__(self, patient, donor):
         self.patient=patient

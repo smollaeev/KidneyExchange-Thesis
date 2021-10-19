@@ -1978,7 +1978,7 @@
     {
         "py/object": "patient.Patient",
         "name": "Rebecca Haber",
-        "type": "incomp_patient",
+        "type": "waitlist",
         "age": 61,
         "weight": 50,
         "bloodType": "b",
@@ -1988,16 +1988,16 @@
         "disease": 0,
         "donor": {
             "py/object": "donor.Donor",
-            "name": "John Doctor",
-            "gender": "m",
-            "age": 38,
-            "patientName": "Rebecca Haber",
-            "type": "IncompatibleRelativeDonor",
-            "bloodType": "a"
+            "name": "",
+            "gender": "",
+            "age": 0,
+            "patientName": "",
+            "type": "",
+            "bloodType": ""
         },
-        "waitingTime": null,
-        "gfr": null,
-        "score": null,
+        "waitingTime": 0,
+        "gfr": 5.105954560456293,
+        "score": 28.788090879087413,
         "priority": 0,
         "qualityoflifeIndex": 3
     },
@@ -2394,7 +2394,7 @@
     {
         "py/object": "patient.Patient",
         "name": "Darren Brown",
-        "type": "incomp_patient",
+        "type": "waitlist",
         "age": 30,
         "weight": 62,
         "bloodType": "b",
@@ -2404,16 +2404,16 @@
         "disease": 0,
         "donor": {
             "py/object": "donor.Donor",
-            "name": "Adelaide Hicks",
-            "gender": "f",
-            "age": 42,
-            "patientName": "Darren Brown",
-            "type": "IncompatibleRelativeDonor",
-            "bloodType": "a"
+            "name": "",
+            "gender": "",
+            "age": 0,
+            "patientName": "",
+            "type": "",
+            "bloodType": ""
         },
-        "waitingTime": null,
-        "gfr": null,
-        "score": null,
+        "waitingTime": 0,
+        "gfr": 33.34393087224926,
+        "score": 3.3121382555014804,
         "priority": 0,
         "qualityoflifeIndex": 3
     },
@@ -2602,7 +2602,7 @@
     {
         "py/object": "patient.Patient",
         "name": "Harold Conway",
-        "type": "incomp_patient",
+        "type": "waitlist",
         "age": 34,
         "weight": 56,
         "bloodType": "a",
@@ -2612,16 +2612,16 @@
         "disease": 0,
         "donor": {
             "py/object": "donor.Donor",
-            "name": "Danna Coles",
-            "gender": "f",
-            "age": 45,
-            "patientName": "Harold Conway",
-            "type": "IncompatibleRelativeDonor",
-            "bloodType": "b"
+            "name": "",
+            "gender": "",
+            "age": 0,
+            "patientName": "",
+            "type": "",
+            "bloodType": ""
         },
-        "waitingTime": null,
-        "gfr": null,
-        "score": null,
+        "waitingTime": 0,
+        "gfr": 4.498289255684386,
+        "score": 57.003421488631226,
         "priority": 0,
         "qualityoflifeIndex": 3
     },
@@ -3564,7 +3564,7 @@
     {
         "py/object": "patient.Patient",
         "name": "Michael Smith",
-        "type": "incomp_patient",
+        "type": "waitlist",
         "age": 30,
         "weight": 119,
         "bloodType": "a",
@@ -3574,16 +3574,16 @@
         "disease": 1,
         "donor": {
             "py/object": "donor.Donor",
-            "name": "Christopher Mcclure",
-            "gender": "m",
-            "age": 40,
-            "patientName": "Michael Smith",
-            "type": "IncompatibleRelativeDonor",
-            "bloodType": "ab"
+            "name": "",
+            "gender": "",
+            "age": 0,
+            "patientName": "",
+            "type": "",
+            "bloodType": ""
         },
-        "waitingTime": null,
-        "gfr": null,
-        "score": null,
+        "waitingTime": 0,
+        "gfr": 31.11922765881487,
+        "score": 7.761544682370257,
         "priority": 0,
         "qualityoflifeIndex": 3
     },
@@ -3902,7 +3902,7 @@
     {
         "py/object": "patient.Patient",
         "name": "Marilyn Kreutzer",
-        "type": "incomp_patient",
+        "type": "waitlist",
         "age": 34,
         "weight": 62,
         "bloodType": "a",
@@ -3912,16 +3912,16 @@
         "disease": 0,
         "donor": {
             "py/object": "donor.Donor",
-            "name": "Mary Beam",
-            "gender": "f",
-            "age": 41,
-            "patientName": "Marilyn Kreutzer",
-            "type": "IncompatibleRelativeDonor",
-            "bloodType": "b"
+            "name": "",
+            "gender": "",
+            "age": 0,
+            "patientName": "",
+            "type": "",
+            "bloodType": ""
         },
-        "waitingTime": null,
-        "gfr": null,
-        "score": null,
+        "waitingTime": 0,
+        "gfr": 7.718912574228768,
+        "score": 50.562174851542466,
         "priority": 0,
         "qualityoflifeIndex": 3
     },

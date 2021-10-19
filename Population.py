@@ -2,9 +2,6 @@ from chromosome import Chromosome
 import copy
 import numpy as np
 import random
-from patient import Patient
-from donor import Donor
-from Repository import Repository
 
 class Population:
     numberOfIndividuals = 40
@@ -12,7 +9,7 @@ class Population:
     probabilityOfCrossover = 1
     tournamentSize = 3
     elitismSize = 2
-    probabilityOfMutation = 0.7
+    probabilityOfMutation = 0.2
 
     def __init__(self, generation, patients, donors):
         self.generation = generation

@@ -240,8 +240,8 @@ def main():
     ans1=input("Do you want to create a new database? (All previous data will be replaced)(y/n)")
     if ans1=="y":
 
-        n_WaitList=70
-        n_IncompPatient=90
+        n_WaitList=80
+        n_IncompPatient=0
         n_DeceasedDonor=20
         n_Market=15
         
@@ -250,20 +250,20 @@ def main():
 
         for _ in range(n_WaitList):
             patients.append(create_PatientData('waitlist'))
-        for j in range(n_WaitList,n_IncompPatient+n_WaitList):
-            patients.append(create_PatientData("incomp_patient"))
-            donors.append(patients[j].donor)
-        for _ in range(n_DeceasedDonor):
-            donors.append(CreateDonorData('deceased'))
-        for _ in range(n_Market):
-            donors.append(CreateDonorData('market'))
+        # for j in range(n_WaitList,n_IncompPatient+n_WaitList):
+        #     patients.append(create_PatientData("incomp_patient"))
+        #     donors.append(patients[j].donor)
+        # for _ in range(n_DeceasedDonor):
+        #     donors.append(CreateDonorData('deceased'))
+        # for _ in range(n_Market):
+        #     donors.append(CreateDonorData('market'))
 
 
-        with open("PatientData.json", "w") as write_file:
+        with open("PatientData - n = 10 - without incompatible.json", "w") as write_file:
             write_file.write(jsonpickle.encode(patients, indent=4))
 
-        with open("DonorData.json", "w") as write_file:
-            write_file.write(jsonpickle.encode(donors, indent=4))
+        # with open("DonorData.json", "w") as write_file:
+        #     write_file.write(jsonpickle.encode(donors, indent=4))
 
 if __name__ == "__main__":
     main()

@@ -1,16 +1,14 @@
 import jsonpickle
-from patient import Patient
-from donor import Donor
 
 class Repository:    
 
     def __GetData_patients(self):
-        with open("PatientData- n = 10.json","r") as patients_data:
+        with open("./data/PatientData-withoutmarket- n = 10.json","r") as patients_data:
             patients=jsonpickle.decode(patients_data.read())
         return patients
         
     def __GetData_donors(self):
-        with open("DonorData- n = 10.json","r") as donors_data:
+        with open("./data/DonorData-withoutmarket- n = 10.json","r") as donors_data:
             donors=jsonpickle.decode(donors_data.read())
         return donors
 
